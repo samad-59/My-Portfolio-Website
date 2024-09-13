@@ -1,0 +1,229 @@
+:root
+{
+    --neonblack:black;
+    --popin:'poppins',sans-serif;
+    --robot:'Roboto',sans-serif;
+    --fejalla:'fjalla one',sans-serif;
+}
+.btn-dark{
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.btn-dark:hover{
+    background-color: red;
+}
+html{
+scroll-behavior: smooth;
+    
+}
+body
+{
+    font-family: var(--popin)!important;
+    background-color: var(--neonblack)!important;
+}
+.sticky {
+    background-color: rgb(245, 139, 192);
+    width: 100%;
+    margin-top: -50px; /* Adjust or remove if not needed */
+}
+#k2{
+    text-shadow: 2px 2px 4px;
+}
+#k1{
+   background-color:#4287f5;
+   color: #ecf809;
+}
+#k1{
+    background-color:#4287f5;
+    color: #ecf809;
+ }
+#k5 p{
+    color: #ecf809;
+}
+
+#k1 p{
+   color: #ffffff;
+}
+#k1:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#S1:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#D1:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.navbar {
+    transition: 0.1s;
+}
+
+.sticky .nav-link {
+    color: white !important;
+}
+
+.sticky .navbar-brand {
+    color: rgb(212, 9, 9) !important;
+}
+
+.navbar .navbar-brand
+{
+    color: #ecf809;
+    font-size: 2.5rem;
+    font-family: var(--robot)!important;
+    font-weight: bold;
+}
+.navbar .nav-link
+{
+ color:#ecf809;
+ font-size: 18px;
+}
+.navbar-toggler
+{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 40px;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width:991px){
+.navbar .navbar-nav
+{
+  
+    border-radius: 20px;
+}
+.navbar .nav-link
+{
+    color: white;
+    padding-left: 2rem;
+}
+}
+/* Add this to your existing CSS file or in a <style> tag */
+.portfolio-item {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-section {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 60px 0; /* Adjust padding as needed */
+}
+.portfolio-item {
+    background-color: #ffffff; /* White background for each item */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensure images and text don't overflow */
+    text-align: center;
+    padding: 20px;
+}
+.portfolio-item img {
+    border-radius: 10px; /* Rounded corners for images */
+    max-width: 100%; /* Ensure images fit within the container */
+}
+
+.portfolio-item h4 {
+    color: #333333; /* Dark text color for project titles */
+}
+
+.portfolio-item p {
+    color: #666666; /* Muted text color for descriptions */
+}
+.blog-section {
+    background-color: #ffffff; /* White background for the blog section */
+    padding: 60px 0; /* Vertical padding */
+}
+
+.blog-item {
+    background-color: #f8f9fa; /* Light background for each blog item */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-align: center;
+    padding: 20px;
+}
+#F1:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#A2:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#E3:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.blog-item img {
+    border-radius: 10px; /* Rounded corners for images */
+    max-width: 100%; /* Ensure images fit within the container */
+}
+
+.blog-item h4 {
+    color: #333333; /* Dark text color for blog post titles */
+}
+
+.blog-item p {
+    color: #666666; /* Muted text color for descriptions */
+}
+
+.btn-primary {
+    background-color: rgb(226, 43, 95); /* Primary button color */
+    border-color: rgb(226, 43, 95); /* Border color to match button */
+}
+
+.btn-outline-primary {
+    border-color: rgb(226, 43, 95); /* Outline color for buttons */
+    color: rgb(226, 43, 95); /* Text color to match outline */
+}
+.contact-section {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 60px 0; /* Vertical padding */
+}
+
+.contact-section h2 {
+    color: #333333; /* Dark text color for the heading */
+}
+
+.contact-section h4 {
+    color: #333333; /* Dark text color for subheadings */
+}
+
+.contact-section p {
+    color: #666666; /* Muted text color for paragraph */
+}
+
+.contact-section .form-control {
+    border-radius: 5px; /* Rounded corners for form inputs */
+}
+
+.contact-section .btn-primary {
+    background-color: rgb(226, 43, 95); /* Primary button color */
+    border-color: rgb(226, 43, 95); /* Border color to match button */
+}
+
+.contact-section .btn-primary:hover {
+    background-color: rgb(200, 30, 85); /* Darker shade for hover effect */
+}
+
+.contact-section ul {
+    padding-left: 0; /* Remove default padding for list */
+}
+
+.contact-section li {
+    font-size: 16px; /* Font size for list items */
+    color: #666666; /* Muted text color */
+}
+
+.contact-section i {
+    color: rgb(226, 43, 95); /* Color for icons */
+    font-size: 18px; /* Font size for icons */
+}
+
